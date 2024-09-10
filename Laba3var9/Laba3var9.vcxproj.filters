@@ -15,12 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="primer.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Laba1var9.cpp">
+    <ClCompile Include="Laba3var9.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
