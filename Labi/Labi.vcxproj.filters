@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\1laba">
+      <UniqueIdentifier>{8af4de81-4542-4afc-a581-4a2c152a1800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\2laba">
+      <UniqueIdentifier>{9e7d3e65-1878-47a6-89fe-982c4c885fe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\3laba">
+      <UniqueIdentifier>{7567c651-9a5e-4c4b-a11c-fa5e7e8f8666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\4laba">
+      <UniqueIdentifier>{bc95bcaf-4887-4ce2-a2f4-b60ce69bbb9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\5laba">
+      <UniqueIdentifier>{0ce1a797-6709-4ddc-ac36-5e2ba31f9821}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Labi.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="primer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="1laba9var.h">
+      <Filter>Файлы заголовков\1laba</Filter>
+    </ClInclude>
+    <ClInclude Include="2laba9var.h">
+      <Filter>Файлы заголовков\2laba</Filter>
+    </ClInclude>
+    <ClInclude Include="3laba9var.h">
+      <Filter>Файлы заголовков\3laba</Filter>
+    </ClInclude>
+    <ClInclude Include="4laba9var.h">
+      <Filter>Файлы заголовков\4laba</Filter>
+    </ClInclude>
+    <ClInclude Include="5laba9var.h">
+      <Filter>Файлы заголовков\5laba</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
