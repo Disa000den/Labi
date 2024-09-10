@@ -56,5 +56,8 @@
     <ClInclude Include="5laba9var.h">
       <Filter>Файлы заголовков\5laba</Filter>
     </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Файлы заголовков\1laba</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

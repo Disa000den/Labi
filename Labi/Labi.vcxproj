@@ -135,6 +135,7 @@
     <ClInclude Include="3laba9var.h" />
     <ClInclude Include="4laba9var.h" />
     <ClInclude Include="5laba9var.h" />
+    <ClInclude Include="Header.h" />
     <ClInclude Include="primer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
