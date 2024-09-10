@@ -9,7 +9,6 @@ int main()
 	char bukva;
 	cout << "Введите букву\n";
 	cin >> bukva;
-	bukva = 'A';
 	switch (bukva)
 	{
 	case 'L':
@@ -43,7 +42,7 @@ int main()
 		cout << "Возможно, это гласная буква" << endl;
 		break;
 	default:
-		cout << "Символ неверный.Введите прописную букву латинского алфавита." << endl;
+		cout << "Символ неверный. Введите прописную букву латинского алфавита." << endl;
 		break;
 	}
 	return 0;

@@ -6,8 +6,8 @@ int main()
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 	double diag, plosh;
-	cout << "\n ¬ведите диагональ квадрата"; cin >> diag;
+	cout << "¬ведите диагональ квадрата\n"; cin >> diag;
 	plosh = diag * diag;
-	cout << "\n ѕлощадь квадрата =" << plosh;
+	cout << "ѕлощадь квадрата = " << plosh;
 	return 0;
 }

@@ -11,6 +11,6 @@ int main()
 	cout << "Введите значение x\n";
 	cin >> x;
 	result = sqrt(pow(x, 4) + 3 * x + 5) + abs(x);
-	cout << "Значение выражения равно\n" << result;
+	cout << "Значение выражения равно " << result;
 	return 0;
 }
