@@ -28,6 +28,9 @@
     <Filter Include="Файлы заголовков\5laba">
       <UniqueIdentifier>{0ce1a797-6709-4ddc-ac36-5e2ba31f9821}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы заголовков\6laba">
+      <UniqueIdentifier>{76c043dc-bd1d-48f8-862b-0c228d053275}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Labi.cpp">
