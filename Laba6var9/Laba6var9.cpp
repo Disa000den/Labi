@@ -16,7 +16,6 @@ int main()
 	{
 		cin >> *(p + i);
 	}
-	system("cls");
 	for (i = 0; i < SIZE; i++) 
 	{
 		if (*(p + i) < 0)
