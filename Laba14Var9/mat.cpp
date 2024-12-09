@@ -4,19 +4,19 @@
 using namespace std;
 
 
-void fillmat(int** mat, int m, int n, int k)
+void fillmat(double** mat, int m, int n, int k)
 {
 	srand(time(0));
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j < m; j++)
 		{
-			mat[i][j] = rand() % (2 * k + 1) - k;
+			mat[i][j] = double((rand() % (2 * k + 1) - k) * 0.997);
 		}
 	}
 }
 
-void printmat(int** mat, int n, int m)
+void printmat(double** mat, int n, int m)
 {
 	for (int i = 0; i < n; i++)
 	{
@@ -28,7 +28,7 @@ void printmat(int** mat, int n, int m)
 	}
 }
 
-void maxmat(int** mat, int n, int m, int* mxn, int* mxm, int* max)
+void maxmat(double** mat, int n, int m, int* mxn, int* mxm, double* max)
 {
 	for (int i = 0; i < n; i++)
 	{

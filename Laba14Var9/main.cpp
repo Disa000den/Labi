@@ -7,7 +7,8 @@ int main()
 {
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
-	int k, n, m, mxn, mxm, max;
+	int k, n, m, mxn, mxm;
+	double max;
 	cout << "Введите диапозон k" << endl;
 	cin >> k;
 	cout << "Введите количество строк" << endl;
@@ -15,10 +16,10 @@ int main()
 	cout << "Введите количество столбцов" << endl;
 	cin >> m;
 	max = 0 - (k * 100);
-	int** mat = new int* [n];
+	double** mat = new double* [n];
 	for (int i = 0; i < n; i++)
 	{
-		mat[i] = new int[m];
+		mat[i] = new double[m];
 	}
 	fillmat(mat, m, n, k);
 	cout << "Сгенерированная матрица: " << endl;
