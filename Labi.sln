@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Laba12var9", "Laba12var9\La
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Laba13Var9", "Laba13Var9\Laba13Var9.vcxproj", "{6C596B78-6125-4805-A7B1-05F9389148C7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Laba14Var9", "Laba14Var9\Laba14Var9.vcxproj", "{ACE9C68C-EA69-4491-ADD3-5BDE0E63FD00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{6C596B78-6125-4805-A7B1-05F9389148C7}.Release|x64.Build.0 = Release|x64
 		{6C596B78-6125-4805-A7B1-05F9389148C7}.Release|x86.ActiveCfg = Release|Win32
 		{6C596B78-6125-4805-A7B1-05F9389148C7}.Release|x86.Build.0 = Release|Win32
+		{ACE9C68C-EA69-4491-ADD3-5BDE0E63FD00}.Debug|x64.ActiveCfg = Debug|x64
+		{ACE9C68C-EA69-4491-ADD3-5BDE0E63FD00}.Debug|x64.Build.0 = Debug|x64
+		{ACE9C68C-EA69-4491-ADD3-5BDE0E63FD00}.Debug|x86.ActiveCfg = Debug|Win32
+		{ACE9C68C-EA69-4491-ADD3-5BDE0E63FD00}.Debug|x86.Build.0 = Debug|Win32
+		{ACE9C68C-EA69-4491-ADD3-5BDE0E63FD00}.Release|x64.ActiveCfg = Release|x64
+		{ACE9C68C-EA69-4491-ADD3-5BDE0E63FD00}.Release|x64.Build.0 = Release|x64
+		{ACE9C68C-EA69-4491-ADD3-5BDE0E63FD00}.Release|x86.ActiveCfg = Release|Win32
+		{ACE9C68C-EA69-4491-ADD3-5BDE0E63FD00}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
